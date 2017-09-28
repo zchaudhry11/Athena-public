@@ -1,0 +1,29 @@
+{
+  "name": "athena-server",
+  "version": "0.0.1",
+  "description": "AUXOGarden's Backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "AUXO Team",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "express": "4.15.2",
+    "request": "2.81.0",
+    "body-parser": "1.17.1",
+    "ejs": "2.5.6",
+    "sequelize": "3.30.4",
+    "tedious": "2.0.0",
+    "socket.io": "1.7.3"
+  }
+}
